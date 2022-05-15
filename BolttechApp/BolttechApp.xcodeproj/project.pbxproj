@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8675D952830B65D00D5D7C0 /* APIHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675D942830B65D00D5D7C0 /* APIHandler.swift */; };
+		E8675D972830B67000D5D7C0 /* APILoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675D962830B67000D5D7C0 /* APILoader.swift */; };
+		E8675D9A2830B76900D5D7C0 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = E8675D992830B76900D5D7C0 /* Auth0 */; };
+		E8675D9C2830B96C00D5D7C0 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = E8675D9B2830B96C00D5D7C0 /* Auth0.plist */; };
+		E8675DA02830BC0500D5D7C0 /* UsersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675D9F2830BC0500D5D7C0 /* UsersViewModel.swift */; };
+		E8675DA22830BC1600D5D7C0 /* UsersUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DA12830BC1600D5D7C0 /* UsersUseCase.swift */; };
+		E8675DA42830BC2400D5D7C0 /* UsersRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DA32830BC2400D5D7C0 /* UsersRepository.swift */; };
+		E8675DA62830BC3D00D5D7C0 /* UsersNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DA52830BC3D00D5D7C0 /* UsersNetworkService.swift */; };
+		E8675DA82830BC5100D5D7C0 /* UsersDM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DA72830BC5100D5D7C0 /* UsersDM.swift */; };
+		E8675DAB2830BF1400D5D7C0 /* BTConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DAA2830BF1400D5D7C0 /* BTConfiguration.swift */; };
+		E8675DAD2830BF1F00D5D7C0 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DAC2830BF1F00D5D7C0 /* APIConstant.swift */; };
+		E8675DB02830C84700D5D7C0 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DAF2830C84700D5D7C0 /* UIViewController+Extension.swift */; };
 		E8F217EC282F479B00F60A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F217EB282F479B00F60A1E /* AppDelegate.swift */; };
 		E8F217EE282F479B00F60A1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F217ED282F479B00F60A1E /* SceneDelegate.swift */; };
 		E8F217F0282F479B00F60A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F217EF282F479B00F60A1E /* ViewController.swift */; };
@@ -37,6 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8675D942830B65D00D5D7C0 /* APIHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIHandler.swift; sourceTree = "<group>"; };
+		E8675D962830B67000D5D7C0 /* APILoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APILoader.swift; sourceTree = "<group>"; };
+		E8675D9B2830B96C00D5D7C0 /* Auth0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		E8675D9F2830BC0500D5D7C0 /* UsersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersViewModel.swift; sourceTree = "<group>"; };
+		E8675DA12830BC1600D5D7C0 /* UsersUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersUseCase.swift; sourceTree = "<group>"; };
+		E8675DA32830BC2400D5D7C0 /* UsersRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersRepository.swift; sourceTree = "<group>"; };
+		E8675DA52830BC3D00D5D7C0 /* UsersNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersNetworkService.swift; sourceTree = "<group>"; };
+		E8675DA72830BC5100D5D7C0 /* UsersDM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersDM.swift; sourceTree = "<group>"; };
+		E8675DAA2830BF1400D5D7C0 /* BTConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTConfiguration.swift; sourceTree = "<group>"; };
+		E8675DAC2830BF1F00D5D7C0 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		E8675DAF2830C84700D5D7C0 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		E8F217E8282F479B00F60A1E /* BolttechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BolttechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F217EB282F479B00F60A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F217ED282F479B00F60A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8675D9A2830B76900D5D7C0 /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E8675D932830B64B00D5D7C0 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				E8675D962830B67000D5D7C0 /* APILoader.swift */,
+				E8675D942830B65D00D5D7C0 /* APIHandler.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		E8675D9D2830BBBD00D5D7C0 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E8675D9E2830BBE600D5D7C0 /* User */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E8675D9E2830BBE600D5D7C0 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				E8675D9F2830BC0500D5D7C0 /* UsersViewModel.swift */,
+				E8675DA12830BC1600D5D7C0 /* UsersUseCase.swift */,
+				E8675DA32830BC2400D5D7C0 /* UsersRepository.swift */,
+				E8675DA52830BC3D00D5D7C0 /* UsersNetworkService.swift */,
+				E8675DA72830BC5100D5D7C0 /* UsersDM.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		E8675DA92830BEE600D5D7C0 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				E8675DAA2830BF1400D5D7C0 /* BTConfiguration.swift */,
+				E8675DAC2830BF1F00D5D7C0 /* APIConstant.swift */,
+			);
+			path = Configurations;
+			sourceTree = "<group>";
+		};
+		E8675DAE2830C82E00D5D7C0 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E8675DAF2830C84700D5D7C0 /* UIViewController+Extension.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		E8675DB128310BBE00D5D7C0 /* DelegateClasses */ = {
+			isa = PBXGroup;
+			children = (
+				E8F217EB282F479B00F60A1E /* AppDelegate.swift */,
+				E8F217ED282F479B00F60A1E /* SceneDelegate.swift */,
+			);
+			path = DelegateClasses;
+			sourceTree = "<group>";
+		};
+		E8675DB228310BDA00D5D7C0 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				E8F217EF282F479B00F60A1E /* ViewController.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
 		E8F217DF282F479B00F60A1E = {
 			isa = PBXGroup;
 			children = (
@@ -101,9 +188,13 @@
 		E8F217EA282F479B00F60A1E /* BolttechApp */ = {
 			isa = PBXGroup;
 			children = (
-				E8F217EB282F479B00F60A1E /* AppDelegate.swift */,
-				E8F217ED282F479B00F60A1E /* SceneDelegate.swift */,
-				E8F217EF282F479B00F60A1E /* ViewController.swift */,
+				E8675D9B2830B96C00D5D7C0 /* Auth0.plist */,
+				E8675DB228310BDA00D5D7C0 /* MainVC */,
+				E8675DB128310BBE00D5D7C0 /* DelegateClasses */,
+				E8675DAE2830C82E00D5D7C0 /* HelperClasses */,
+				E8675DA92830BEE600D5D7C0 /* Configurations */,
+				E8675D9D2830BBBD00D5D7C0 /* Modules */,
+				E8675D932830B64B00D5D7C0 /* Network */,
 				E8F217F1282F479B00F60A1E /* Main.storyboard */,
 				E8F217F7282F479D00F60A1E /* Assets.xcassets */,
 				E8F217F9282F479D00F60A1E /* LaunchScreen.storyboard */,
@@ -146,6 +237,9 @@
 			dependencies = (
 			);
 			name = BolttechApp;
+			packageProductDependencies = (
+				E8675D992830B76900D5D7C0 /* Auth0 */,
+			);
 			productName = BolttechApp;
 			productReference = E8F217E8282F479B00F60A1E /* BolttechApp.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +312,9 @@
 				Base,
 			);
 			mainGroup = E8F217DF282F479B00F60A1E;
+			packageReferences = (
+				E8675D982830B76900D5D7C0 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
 			productRefGroup = E8F217E9282F479B00F60A1E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +334,7 @@
 				E8F217FB282F479D00F60A1E /* LaunchScreen.storyboard in Resources */,
 				E8F217F8282F479D00F60A1E /* Assets.xcassets in Resources */,
 				E8F217F3282F479B00F60A1E /* Main.storyboard in Resources */,
+				E8675D9C2830B96C00D5D7C0 /* Auth0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +359,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8675DA22830BC1600D5D7C0 /* UsersUseCase.swift in Sources */,
+				E8675DA42830BC2400D5D7C0 /* UsersRepository.swift in Sources */,
 				E8F217F0282F479B00F60A1E /* ViewController.swift in Sources */,
+				E8675DA62830BC3D00D5D7C0 /* UsersNetworkService.swift in Sources */,
+				E8675DB02830C84700D5D7C0 /* UIViewController+Extension.swift in Sources */,
+				E8675DA02830BC0500D5D7C0 /* UsersViewModel.swift in Sources */,
+				E8675DAD2830BF1F00D5D7C0 /* APIConstant.swift in Sources */,
+				E8675DA82830BC5100D5D7C0 /* UsersDM.swift in Sources */,
+				E8675DAB2830BF1400D5D7C0 /* BTConfiguration.swift in Sources */,
 				E8F217EC282F479B00F60A1E /* AppDelegate.swift in Sources */,
+				E8675D952830B65D00D5D7C0 /* APIHandler.swift in Sources */,
 				E8F217F6282F479B00F60A1E /* BolttechApp.xcdatamodeld in Sources */,
 				E8F217EE282F479B00F60A1E /* SceneDelegate.swift in Sources */,
+				E8675D972830B67000D5D7C0 /* APILoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -426,7 +534,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -451,13 +559,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.veera.BolttechApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.myapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -480,13 +588,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.veera.BolttechApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.myapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -505,7 +613,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.veera.BolttechAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.myappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -525,7 +633,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.veera.BolttechAppTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.myappTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -543,7 +651,7 @@
 				DEVELOPMENT_TEAM = RCW5R3MJZ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.veera.BolttechAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.myappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -561,7 +669,7 @@
 				DEVELOPMENT_TEAM = RCW5R3MJZ2;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.veera.BolttechAppUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.myappUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -610,6 +718,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E8675D982830B76900D5D7C0 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E8675D992830B76900D5D7C0 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E8675D982830B76900D5D7C0 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E8F217F4282F479B00F60A1E /* BolttechApp.xcdatamodeld */ = {
