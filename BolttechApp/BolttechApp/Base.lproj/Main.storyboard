@@ -53,15 +53,35 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.28235294119999998" green="0.70196078429999997" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssU-ii-OFw">
+                                <rect key="frame" x="89" y="488" width="196" height="43"/>
+                                <color key="backgroundColor" red="0.28235294119999998" green="0.70196078429999997" blue="0.71764705880000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="NQF-7a-0gM"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="196" id="dxV-Ag-ktC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="NavigateToSDK">
+                                    <fontDescription key="titleFontDescription" type="boldSystem" pointSize="24"/>
+                                    <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="navigateToSDKAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pm5-VT-Cs7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="4xU-2u-Rnb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="146" id="1Kd-vg-lGW"/>
                             <constraint firstItem="d0V-xf-ecr" firstAttribute="top" secondItem="4xU-2u-Rnb" secondAttribute="bottom" constant="16.5" id="GuP-H5-DJp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ssU-ii-OFw" secondAttribute="trailing" constant="90" id="NnP-qP-Uz1"/>
                             <constraint firstItem="d0V-xf-ecr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="PIy-Xv-B3i"/>
+                            <constraint firstItem="ssU-ii-OFw" firstAttribute="top" secondItem="d0V-xf-ecr" secondAttribute="bottom" constant="132.5" id="Umz-e2-egc"/>
                             <constraint firstItem="d0V-xf-ecr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Wqf-3y-pFr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ssU-ii-OFw" secondAttribute="bottom" constant="136" id="qPA-K9-oX5"/>
                             <constraint firstItem="4xU-2u-Rnb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="uvS-F1-OMF"/>
+                            <constraint firstItem="ssU-ii-OFw" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="89" id="y7H-31-cse"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4xU-2u-Rnb" secondAttribute="trailing" constant="16" id="y7W-EX-cDw"/>
                         </constraints>
                     </view>
@@ -69,6 +89,7 @@
                     <connections>
                         <outlet property="email" destination="2X8-qj-ORO" id="HXw-xJ-Ld7"/>
                         <outlet property="loginBtn" destination="d0V-xf-ecr" id="Fd7-I9-yfk"/>
+                        <outlet property="navigateToSDKBtn" destination="ssU-ii-OFw" id="KOX-Od-zlz"/>
                         <outlet property="stackView" destination="4xU-2u-Rnb" id="ZdK-eL-ztM"/>
                         <outlet property="username" destination="vjD-te-D7X" id="31l-p8-Yu6"/>
                     </connections>

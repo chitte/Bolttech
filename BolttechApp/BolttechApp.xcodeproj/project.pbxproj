@@ -19,6 +19,25 @@
 		E8675DAB2830BF1400D5D7C0 /* BTConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DAA2830BF1400D5D7C0 /* BTConfiguration.swift */; };
 		E8675DAD2830BF1F00D5D7C0 /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DAC2830BF1F00D5D7C0 /* APIConstant.swift */; };
 		E8675DB02830C84700D5D7C0 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8675DAF2830C84700D5D7C0 /* UIViewController+Extension.swift */; };
+		E8CD7B172833B78200BECBE9 /* AddressList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B082833B78100BECBE9 /* AddressList.swift */; };
+		E8CD7B182833B78200BECBE9 /* Bonjour.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B092833B78100BECBE9 /* Bonjour.swift */; };
+		E8CD7B192833B78200BECBE9 /* Devices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B0A2833B78100BECBE9 /* Devices.swift */; };
+		E8CD7B1A2833B78200BECBE9 /* Customer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B0B2833B78100BECBE9 /* Customer.swift */; };
+		E8CD7B1B2833B78200BECBE9 /* SchemeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B0C2833B78100BECBE9 /* SchemeDetails.swift */; };
+		E8CD7B1C2833B78200BECBE9 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B0D2833B78100BECBE9 /* Orders.swift */; };
+		E8CD7B1D2833B78200BECBE9 /* NetworkScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B0E2833B78100BECBE9 /* NetworkScan.swift */; };
+		E8CD7B1E2833B78200BECBE9 /* FindDevicesContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B0F2833B78100BECBE9 /* FindDevicesContent.swift */; };
+		E8CD7B1F2833B78200BECBE9 /* FindDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B102833B78100BECBE9 /* FindDevices.swift */; };
+		E8CD7B212833B78200BECBE9 /* Netbios.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B122833B78100BECBE9 /* Netbios.swift */; };
+		E8CD7B232833B78200BECBE9 /* Offers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B142833B78100BECBE9 /* Offers.swift */; };
+		E8CD7B242833B78200BECBE9 /* AddDeviceManually.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B152833B78100BECBE9 /* AddDeviceManually.swift */; };
+		E8CD7B252833B78200BECBE9 /* Plan.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B162833B78100BECBE9 /* Plan.swift */; };
+		E8CD7B272833B81900BECBE9 /* DeviceItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8CD7B262833B81900BECBE9 /* DeviceItems.swift */; };
+		E8D996AB2834D0DB0006D8D2 /* DeviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D996AA2834D0DB0006D8D2 /* DeviceViewModel.swift */; };
+		E8D996AD2834D0F20006D8D2 /* DeviceUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D996AC2834D0F20006D8D2 /* DeviceUseCase.swift */; };
+		E8D996AF2834D1090006D8D2 /* DeviceRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D996AE2834D1090006D8D2 /* DeviceRepository.swift */; };
+		E8D996B22834D1290006D8D2 /* DeviceNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D996B12834D1290006D8D2 /* DeviceNetworkService.swift */; };
+		E8D996BC2834D6AB0006D8D2 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D996BB2834D6AB0006D8D2 /* Networking.swift */; };
 		E8F217EC282F479B00F60A1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F217EB282F479B00F60A1E /* AppDelegate.swift */; };
 		E8F217EE282F479B00F60A1E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F217ED282F479B00F60A1E /* SceneDelegate.swift */; };
 		E8F217F0282F479B00F60A1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F217EF282F479B00F60A1E /* ViewController.swift */; };
@@ -60,6 +79,25 @@
 		E8675DAA2830BF1400D5D7C0 /* BTConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTConfiguration.swift; sourceTree = "<group>"; };
 		E8675DAC2830BF1F00D5D7C0 /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
 		E8675DAF2830C84700D5D7C0 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		E8CD7B082833B78100BECBE9 /* AddressList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressList.swift; sourceTree = "<group>"; };
+		E8CD7B092833B78100BECBE9 /* Bonjour.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bonjour.swift; sourceTree = "<group>"; };
+		E8CD7B0A2833B78100BECBE9 /* Devices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Devices.swift; sourceTree = "<group>"; };
+		E8CD7B0B2833B78100BECBE9 /* Customer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Customer.swift; sourceTree = "<group>"; };
+		E8CD7B0C2833B78100BECBE9 /* SchemeDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchemeDetails.swift; sourceTree = "<group>"; };
+		E8CD7B0D2833B78100BECBE9 /* Orders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		E8CD7B0E2833B78100BECBE9 /* NetworkScan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkScan.swift; sourceTree = "<group>"; };
+		E8CD7B0F2833B78100BECBE9 /* FindDevicesContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindDevicesContent.swift; sourceTree = "<group>"; };
+		E8CD7B102833B78100BECBE9 /* FindDevices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FindDevices.swift; sourceTree = "<group>"; };
+		E8CD7B122833B78100BECBE9 /* Netbios.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Netbios.swift; sourceTree = "<group>"; };
+		E8CD7B142833B78100BECBE9 /* Offers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offers.swift; sourceTree = "<group>"; };
+		E8CD7B152833B78100BECBE9 /* AddDeviceManually.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeviceManually.swift; sourceTree = "<group>"; };
+		E8CD7B162833B78100BECBE9 /* Plan.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Plan.swift; sourceTree = "<group>"; };
+		E8CD7B262833B81900BECBE9 /* DeviceItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceItems.swift; sourceTree = "<group>"; };
+		E8D996AA2834D0DB0006D8D2 /* DeviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceViewModel.swift; sourceTree = "<group>"; };
+		E8D996AC2834D0F20006D8D2 /* DeviceUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceUseCase.swift; sourceTree = "<group>"; };
+		E8D996AE2834D1090006D8D2 /* DeviceRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceRepository.swift; sourceTree = "<group>"; };
+		E8D996B12834D1290006D8D2 /* DeviceNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceNetworkService.swift; sourceTree = "<group>"; };
+		E8D996BB2834D6AB0006D8D2 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		E8F217E8282F479B00F60A1E /* BolttechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BolttechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F217EB282F479B00F60A1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F217ED282F479B00F60A1E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,33 +140,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E8675D932830B64B00D5D7C0 /* Network */ = {
+		E8675D932830B64B00D5D7C0 /* APIUtility */ = {
 			isa = PBXGroup;
 			children = (
 				E8675D962830B67000D5D7C0 /* APILoader.swift */,
 				E8675D942830B65D00D5D7C0 /* APIHandler.swift */,
 			);
-			path = Network;
+			path = APIUtility;
 			sourceTree = "<group>";
 		};
-		E8675D9D2830BBBD00D5D7C0 /* Modules */ = {
+		E8675D9D2830BBBD00D5D7C0 /* DataModels */ = {
 			isa = PBXGroup;
 			children = (
-				E8675D9E2830BBE600D5D7C0 /* User */,
+				E8D996B32834D16B0006D8D2 /* DeviceDM */,
+				E8675D9E2830BBE600D5D7C0 /* UserDM */,
 			);
-			path = Modules;
+			path = DataModels;
 			sourceTree = "<group>";
 		};
-		E8675D9E2830BBE600D5D7C0 /* User */ = {
+		E8675D9E2830BBE600D5D7C0 /* UserDM */ = {
 			isa = PBXGroup;
 			children = (
-				E8675D9F2830BC0500D5D7C0 /* UsersViewModel.swift */,
-				E8675DA12830BC1600D5D7C0 /* UsersUseCase.swift */,
-				E8675DA32830BC2400D5D7C0 /* UsersRepository.swift */,
-				E8675DA52830BC3D00D5D7C0 /* UsersNetworkService.swift */,
 				E8675DA72830BC5100D5D7C0 /* UsersDM.swift */,
 			);
-			path = User;
+			path = UserDM;
 			sourceTree = "<group>";
 		};
 		E8675DA92830BEE600D5D7C0 /* Configurations */ = {
@@ -165,6 +200,67 @@
 			path = MainVC;
 			sourceTree = "<group>";
 		};
+		E8D996B32834D16B0006D8D2 /* DeviceDM */ = {
+			isa = PBXGroup;
+			children = (
+				E8CD7B262833B81900BECBE9 /* DeviceItems.swift */,
+				E8CD7B152833B78100BECBE9 /* AddDeviceManually.swift */,
+				E8CD7B082833B78100BECBE9 /* AddressList.swift */,
+				E8CD7B092833B78100BECBE9 /* Bonjour.swift */,
+				E8CD7B0B2833B78100BECBE9 /* Customer.swift */,
+				E8CD7B0A2833B78100BECBE9 /* Devices.swift */,
+				E8CD7B102833B78100BECBE9 /* FindDevices.swift */,
+				E8CD7B0F2833B78100BECBE9 /* FindDevicesContent.swift */,
+				E8CD7B122833B78100BECBE9 /* Netbios.swift */,
+				E8CD7B0E2833B78100BECBE9 /* NetworkScan.swift */,
+				E8CD7B142833B78100BECBE9 /* Offers.swift */,
+				E8CD7B0D2833B78100BECBE9 /* Orders.swift */,
+				E8CD7B162833B78100BECBE9 /* Plan.swift */,
+				E8CD7B0C2833B78100BECBE9 /* SchemeDetails.swift */,
+			);
+			name = DeviceDM;
+			path = DeviceDM/DeviceDM;
+			sourceTree = "<group>";
+		};
+		E8D996B42834D2770006D8D2 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E8D996B82834D2B10006D8D2 /* Device */,
+				E8D996B72834D2A40006D8D2 /* Users */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E8D996B72834D2A40006D8D2 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				E8675D9F2830BC0500D5D7C0 /* UsersViewModel.swift */,
+				E8675DA12830BC1600D5D7C0 /* UsersUseCase.swift */,
+				E8675DA32830BC2400D5D7C0 /* UsersRepository.swift */,
+				E8675DA52830BC3D00D5D7C0 /* UsersNetworkService.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		E8D996B82834D2B10006D8D2 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				E8D996AA2834D0DB0006D8D2 /* DeviceViewModel.swift */,
+				E8D996AC2834D0F20006D8D2 /* DeviceUseCase.swift */,
+				E8D996AE2834D1090006D8D2 /* DeviceRepository.swift */,
+				E8D996B12834D1290006D8D2 /* DeviceNetworkService.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		E8D996BA2834D68F0006D8D2 /* NetworkUtility */ = {
+			isa = PBXGroup;
+			children = (
+				E8D996BB2834D6AB0006D8D2 /* Networking.swift */,
+			);
+			path = NetworkUtility;
+			sourceTree = "<group>";
+		};
 		E8F217DF282F479B00F60A1E = {
 			isa = PBXGroup;
 			children = (
@@ -189,12 +285,14 @@
 			isa = PBXGroup;
 			children = (
 				E8675D9B2830B96C00D5D7C0 /* Auth0.plist */,
+				E8D996BA2834D68F0006D8D2 /* NetworkUtility */,
+				E8D996B42834D2770006D8D2 /* Modules */,
 				E8675DB228310BDA00D5D7C0 /* MainVC */,
 				E8675DB128310BBE00D5D7C0 /* DelegateClasses */,
 				E8675DAE2830C82E00D5D7C0 /* HelperClasses */,
 				E8675DA92830BEE600D5D7C0 /* Configurations */,
-				E8675D9D2830BBBD00D5D7C0 /* Modules */,
-				E8675D932830B64B00D5D7C0 /* Network */,
+				E8675D9D2830BBBD00D5D7C0 /* DataModels */,
+				E8675D932830B64B00D5D7C0 /* APIUtility */,
 				E8F217F1282F479B00F60A1E /* Main.storyboard */,
 				E8F217F7282F479D00F60A1E /* Assets.xcassets */,
 				E8F217F9282F479D00F60A1E /* LaunchScreen.storyboard */,
@@ -360,19 +458,38 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8675DA22830BC1600D5D7C0 /* UsersUseCase.swift in Sources */,
+				E8D996AF2834D1090006D8D2 /* DeviceRepository.swift in Sources */,
 				E8675DA42830BC2400D5D7C0 /* UsersRepository.swift in Sources */,
+				E8CD7B272833B81900BECBE9 /* DeviceItems.swift in Sources */,
+				E8CD7B1F2833B78200BECBE9 /* FindDevices.swift in Sources */,
 				E8F217F0282F479B00F60A1E /* ViewController.swift in Sources */,
 				E8675DA62830BC3D00D5D7C0 /* UsersNetworkService.swift in Sources */,
+				E8CD7B1E2833B78200BECBE9 /* FindDevicesContent.swift in Sources */,
+				E8CD7B242833B78200BECBE9 /* AddDeviceManually.swift in Sources */,
+				E8CD7B232833B78200BECBE9 /* Offers.swift in Sources */,
 				E8675DB02830C84700D5D7C0 /* UIViewController+Extension.swift in Sources */,
 				E8675DA02830BC0500D5D7C0 /* UsersViewModel.swift in Sources */,
+				E8D996BC2834D6AB0006D8D2 /* Networking.swift in Sources */,
 				E8675DAD2830BF1F00D5D7C0 /* APIConstant.swift in Sources */,
+				E8CD7B212833B78200BECBE9 /* Netbios.swift in Sources */,
+				E8CD7B182833B78200BECBE9 /* Bonjour.swift in Sources */,
 				E8675DA82830BC5100D5D7C0 /* UsersDM.swift in Sources */,
 				E8675DAB2830BF1400D5D7C0 /* BTConfiguration.swift in Sources */,
 				E8F217EC282F479B00F60A1E /* AppDelegate.swift in Sources */,
+				E8D996AD2834D0F20006D8D2 /* DeviceUseCase.swift in Sources */,
+				E8CD7B172833B78200BECBE9 /* AddressList.swift in Sources */,
+				E8D996AB2834D0DB0006D8D2 /* DeviceViewModel.swift in Sources */,
+				E8CD7B252833B78200BECBE9 /* Plan.swift in Sources */,
 				E8675D952830B65D00D5D7C0 /* APIHandler.swift in Sources */,
 				E8F217F6282F479B00F60A1E /* BolttechApp.xcdatamodeld in Sources */,
+				E8CD7B1C2833B78200BECBE9 /* Orders.swift in Sources */,
 				E8F217EE282F479B00F60A1E /* SceneDelegate.swift in Sources */,
+				E8CD7B1A2833B78200BECBE9 /* Customer.swift in Sources */,
+				E8CD7B192833B78200BECBE9 /* Devices.swift in Sources */,
+				E8CD7B1B2833B78200BECBE9 /* SchemeDetails.swift in Sources */,
 				E8675D972830B67000D5D7C0 /* APILoader.swift in Sources */,
+				E8D996B22834D1290006D8D2 /* DeviceNetworkService.swift in Sources */,
+				E8CD7B1D2833B78200BECBE9 /* NetworkScan.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

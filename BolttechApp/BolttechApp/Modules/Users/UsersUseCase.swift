@@ -7,11 +7,6 @@
 
 import Foundation
 
-struct UsersReqestDM: Codable {
-    var useremail: String = ""
-    var password: String = ""
-}
-
 class UsersUseCase {
     
     private let usersRepository: UsersRepository
